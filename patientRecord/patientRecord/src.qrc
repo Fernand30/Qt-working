@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/Login.png</file>
+        <file>images/textborder.png</file>
+        <file>images/passwordborder.png</file>
+        <file>images/close_on.png</file>
+        <file>images/close_over.png</file>
+        <file>images/closebutton_normal.png</file>
+        <file>images/minbutton_over.png</file>
+        <file>images/minibutton_normal.png</file>
+        <file>images/minibutton_on.png</file>
+        <file>images/sign_normal.png</file>
+        <file>images/sign_over.png</file>
+        <file>images/sign_on.png</file>
+        <file>images/homeButton.png</file>
+        <file>images/home_on.png</file>
+        <file>images/home_over.png</file>
+        <file>images/save_on.png</file>
+        <file>images/save_over.png</file>
+        <file>images/saveButton.png</file>
+        <file>images/check.png</file>
+        <file>images/uncheck.png</file>
+        <file>images/check1.png</file>
+        <file>images/uncheck1.png</file>
+        <file>images/check2.png</file>
+        <file>images/uncheck2.png</file>
+        <file>images/icon2.png</file>
+    </qresource>
+</RCC>
