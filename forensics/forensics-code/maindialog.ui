@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainDialog</class>
+ <widget class="QDialog" name="MainDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>750</width>
+    <height>430</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog#MainDialog{
+	background-image: url(:/images/mainmenu/bg.png);
+}</string>
+  </property>
+  <widget class="QWidget" name="titlebar" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>750</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">fgdgaetbawetbetbqwerqerb qwr</string>
+   </property>
+   <widget class="QPushButton" name="minbutton">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>0</y>
+      <width>40</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#minbutton{
+	border-image:url(:/images/mainmenu/min_normal.png);border:0px;
+} 
+QPushButton#minbutton:hover{
+	border-image:url(:/images/mainmenu/min_over.png);border:0px
+} 
+QPushButton#minbutton:pressed{
+	border-image:url(:/images/mainmenu/min_on.png); position: relative;top: 1px; left: 1px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="closebutton">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>0</y>
+      <width>40</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#closebutton{
+	border-image:url(:/images/mainmenu/close_normal.png);border:0px;
+} 
+QPushButton#closebutton:hover{
+	border-image:url(:/images/mainmenu/close_over.png);border:0px
+} 
+QPushButton#closebutton:pressed{
+	border-image:url(:/images/mainmenu/close_on.png); position: relative;top: 1px; left: 1px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QWidget" name="mark" native="true">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>17</y>
+      <width>123</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget#mark{
+background-image: url(:/images/mainmenu/mark.png);
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>4</y>
+      <width>301</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel#label_2{
+	font: 14pt &quot;MS Shell Dlg 2&quot;;
+	color: #787d97;
+}</string>
+    </property>
+    <property name="text">
+     <string>Forensics Image Acquisition Helper</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="rambutton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>170</width>
+     <height>170</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#rambutton{
+	border-image:url(:/images/mainmenu/ram_normal.png);border:0px;
+	width:170px;
+	height:170px;
+} 
+QPushButton#rambutton:hover{
+	border-image:url(:/images/mainmenu/ram_over.png);border:0px;
+	width:186px;
+	height:186px;
+} 
+QPushButton#rambutton:pressed{
+	border-image:url(:/images/mainmenu/ram_on.png);border:0px;
+	width:170px;
+	height:170px;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="diskbutton">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>60</y>
+     <width>170</width>
+     <height>170</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#diskbutton{
+	border-image:url(:/images/mainmenu/disk_normal.png);border:0px;
+} 
+QPushButton#diskbutton:hover{
+	border-image:url(:/images/mainmenu/disk_over.png);border:0px
+} 
+QPushButton#diskbutton:pressed{
+	border-image:url(:/images/mainmenu/disk_on.png); position: relative;top: 1px; left: 1px;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="drivebutton">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>60</y>
+     <width>170</width>
+     <height>170</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#drivebutton{
+	border-image:url(:/images/mainmenu/drive_normal.png);border:0px;
+} 
+QPushButton#drivebutton:hover{
+	border-image:url(:/images/mainmenu/drive_over.png);border:0px
+} 
+QPushButton#drivebutton:pressed{
+	border-image:url(:/images/mainmenu/drive_on.png); position: relative;top: 1px; left: 1px;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="disk_rambutton">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>60</y>
+     <width>170</width>
+     <height>170</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#disk_rambutton{
+	border-image:url(:/images/mainmenu/disk_ram_normal.png);border:0px;
+} 
+QPushButton#disk_rambutton:hover{
+	border-image:url(:/images/mainmenu/disk_ram_over.png);border:0px
+} 
+QPushButton#disk_rambutton:pressed{
+	border-image:url(:/images/mainmenu/disk_ram_on.png); position: relative;top: 1px; left: 1px;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exitbutton">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>240</y>
+     <width>170</width>
+     <height>170</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#exitbutton{
+	border-image:url(:/images/mainmenu/exit_normal.png);border:0px;
+} 
+QPushButton#exitbutton:hover{
+	border-image:url(:/images/mainmenu/exit_over.png);border:0px
+} 
+QPushButton#exitbutton:pressed{
+	border-image:url(:/images/mainmenu/exit_on.png); position: relative;top: 1px; left: 1px;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="drive_rambutton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>240</y>
+     <width>170</width>
+     <height>170</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#drive_rambutton{
+	border-image:url(:/images/mainmenu/drive_ram_normal.png);border:0px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+} 
+QPushButton#drive_rambutton:hover{
+	border-image:url(:/images/mainmenu/drive_ram_over.png);border:0px;
+	border-radius: 3px;
+} 
+QPushButton#drive_rambutton:pressed{
+	border-image:url(:/images/mainmenu/drive_ram_on.png); position: relative;top: 1px; left: 1px;
+	border-radius: 3px;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="aboutbutton">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>240</y>
+     <width>170</width>
+     <height>170</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#aboutbutton{
+	border-image:url(:/images/mainmenu/about_normal.png);border:0px;
+} 
+QPushButton#aboutbutton:hover{
+	border-image:url(:/images/mainmenu/about_over.png);border:0px
+} 
+QPushButton#aboutbutton:pressed{
+	border-image:url(:/images/mainmenu/about_on.png); position: relative;top: 1px; left: 1px;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="savebutton">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>240</y>
+     <width>170</width>
+     <height>170</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#savebutton{
+	border-image:url(:/images/mainmenu/save_normal.png);border:0px;
+} 
+QPushButton#savebutton:hover{
+	border-image:url(:/images/mainmenu/save_over.png);border:0px
+} 
+QPushButton#savebutton:pressed{
+	border-image:url(:/images/mainmenu/save_on.png); position: relative;top: 1px; left: 1px;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
