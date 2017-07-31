@@ -1,0 +1,13 @@
+INPUT(
+./release\main.o
+./release\detectdialog.o
+./release\client.o
+./release\connection.o
+./release\peermanager.o
+./release\server.o
+./release\moc_detectdialog.o
+./release\moc_client.o
+./release\moc_connection.o
+./release\moc_peermanager.o
+./release\moc_server.o
+);
